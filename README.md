@@ -88,6 +88,6 @@ ubuntu@ubuntu:~/Documents$
 <li><b>Syntax: </b>pwd</li>
 <li><b>Example:</b><br></li></ul>
 ```ruby
- ubuntu@ubuntu:~$ pwd 
+ubuntu@ubuntu:~$ pwd 
 /home/user/Documents
 ```
