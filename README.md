@@ -66,32 +66,28 @@ Utilities are small programs or tools in an operating system that helps you perf
 <b>Examples: </b>copying files, checking disk shape, or setting passwords.
 
 <h2>Linux Commands Overview:</h2>
-<ol><li>ls</li>
+<h4><b>(1)ls</b></h4>
 <ul><li><b>Description: </b>Lists files and directories in the current folder.</li>
 <li><b>Syntax: </b>ls</li>
-<li><b>Example: </b></li>
+<li><b>Example: </b></li></ul>
 ```ruby
  ubuntu@ubuntu:~$ ls 
  Desktop    Downloads   Pictures   Templates   snap 
  Documents  Music    Public    Videos
 ```
-</ul>
-<li>cd</li>
+<h4><b>(2)cd</b></h4>
 <ul><li><b>Description: </b>Changes the current directory</li>
 <li><b>Syntax: </b>cd</li>
-<li><b>Example: </b></li>
+<li><b>Example: </b></li></ul>
 ```ruby
 ubuntu@ubuntu:~$ cd Documents/
 ubuntu@ubuntu:~/Documents$
 ```
-</ul>
-<li>pwd</li>
+<h4><b>(3)pwd</b></h4>
 <ul><li><b>Description: </b>Shows the current working directory</li>
 <li><b>Syntax: </b>pwd</li>
-<li><b>Example:</b><br></li>
+<li><b>Example:</b><br></li></ul>
 ```ruby
  ubuntu@ubuntu:~$ pwd 
 /home/user/Documents
 ```
-</ul>
-</ol>
