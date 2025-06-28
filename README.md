@@ -101,7 +101,7 @@ ubuntu@ubuntu:~$ pwd
 <i>It shows that the user is currently in the "Documents" directory.</i>
 
 <h3><b>(4) mkdir</b></h3>
-<ul><li><b>Description: </b>make a new directory</li>
+<ul><li><b>Description: </b>Used to make a new directory</li>
 <li><b>Syntax: </b>mkdir [folder-name]</li>
 <li><b>Example: </b></li></ul>
 
@@ -125,7 +125,7 @@ bash: dailyreport: Is a directory
 ubuntu@ubuntu:~$ cat > day2
 This is my day2.
 ```
-<i>It lets you type and save content into a file(overwrites if it exists).</i>
+<i>It lets you type and save content into a file(overwrites if it exists).</i><br></br>
 <b>[NOTE: Use Ctrl+D to exit from it.]</b>
 
 <h3><b>(6) touch</b></h3>
@@ -137,9 +137,9 @@ This is my day2.
 ubuntu@ubuntu:~$ touch day1
 ubuntu@ubuntu:~$
 ```
-<i>It creates a new empty file named "day1".</i>
+<i>It creates a new empty file named 'day1'.</i>
 
-<h3><b>() rmdir</b></h3>
+<h3><b>(7) rmdir</b></h3>
 <ul><li><b>Description: </b>remove empty directories</li>
 <li><b>Syntax: </b>rmdir [directory-name]</li>
 <li><b>Example: </b></li></ul>
@@ -148,6 +148,54 @@ ubuntu@ubuntu:~$
 ubuntu@ubuntu:~$ rmdir dailyreport
 ubuntu@ubuntu:~$
 ```
-<i>It removes or deletes the directory named "dailyreport".</i>
-<b>[NOTE: This will only delete the directory named dailyreport only if it is empty, however if the folder is not empty, rmdir will give an error.]</b>
+<i>It removes or deletes the directory named "dailyreport".</i><br></br>
+<b>[NOTE: This will delete the directory named dailyreport only if it is empty, however if it is not empty, rmdir will give an error.]</b>
 
+<h3><b>(8) cp</b></h3>
+<ul><li><b>Description: </b>Used to copy the files or directories from one location to another</li>
+<li><b>Syntax: </b>cp [source] [destination]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ cp day2 d2
+ubuntu@ubuntu:~$
+```
+<i>It will copy the file named 'day2' to 'd2'.</i><br></br>
+<b>[NOTE: The 'day2' file has been copied into 'd2', but the file named 'day2' still exists - it hasn't been removed.]</b>
+
+<h3><b>(9) mv</b></h3>
+<ul><li><b>Description: </b>Used to move the files or directories from one location to another</li>
+<li><b>Syntax: </b>mv [source] [destination]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ mv day1 d1
+ubuntu@ubuntu:~$
+```
+<i>It will move the file named 'day1' to 'd1'.<br></br>
+In other words it is used to rename a file.</i><br></br>
+<b>[NOTE: The 'day1' file has been moved to 'd1',so the original 'day1' file is deleted. In other words, 'day1' has been renamed to 'd1'.]</b>
+
+<h3><b>(10) whoami</b></h3>
+<ul><li><b>Description: </b>shows the username of the currently logged-in user.</li>
+<li><b>Syntax: </b>whoami</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ whoami
+ubuntu
+```
+<i>This means the current user is ubuntu.</i>
+
+<h3><b>(11) whatis</b></h3>
+<ul><li><b>Description: </b>Gave a brief description of a linux command.</li>
+<li><b>Syntax: </b>whatis [command_name]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ whatis cat
+cat (1)          - concatenate filed and print on the standard ou...
+```
+<i>This gives a brief info about cat</i>
+<b>[NOTE: If the output says 'nothing appropriate' that means your man database is not updated or The man-db package(which stores command descriptions) might not be installed.<br></br>
+To update it just search sudo mandb in terminal,it'll automatically update your man database.]</b>
