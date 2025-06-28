@@ -1,7 +1,7 @@
 # mastering_linux
 A beginner-friendly guide to learn and explore Linux basics, commands, and usage.
 
-<h2>What is Linux? &#128105 </h2>
+<h2>What is Linux? 👩‍🏫‍ </h2>
 Linux is a free and open-source operating source, like Windows or macOS, that helps your computer run and manage tasks. It's widely used in servers, mobile phones and even supercomputers.
 
 <h2>Why Linux? &#x1F914 </h2>
@@ -56,10 +56,10 @@ It takes your commands, sends them to the system, and shows the result.<br></br>
 <li><b>Csh (C Shell)- </b>Syntax similar to C programming</li>
 <li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul><br></br>
 <h4>Categories of Shell:</h4>
-<ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li>
-![Screenshot 2025-06-28 153230](https://github.com/user-attachments/assets/701f77e3-c72b-4f87-b01f-0553b6930060)
-<li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li>
-![Screenshot 2025-06-28 153327](https://github.com/user-attachments/assets/28e85a60-7745-469f-9fbc-a4f2b3ae9a67)</ul>
+<ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li><br>
+![Screenshot 2025-06-28 153230](https://github.com/user-attachments/assets/701f77e3-c72b-4f87-b01f-0553b6930060)</br>
+<li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li><br>
+![Screenshot 2025-06-28 153327](https://github.com/user-attachments/assets/28e85a60-7745-469f-9fbc-a4f2b3ae9a67)</br></ul>
 
 <h2>Utilities:</h2>
 Utilities are small programs or tools in an operating system that helps you perform basic tasks. They make it easier to manage files, folders, system settings, and more.<br>
@@ -70,11 +70,11 @@ Utilities are small programs or tools in an operating system that helps you perf
 <ul><li><b>Description: </b>Lists files and directories in the current folder.</li>
 <li><b>Syntax: </b>ls</li>
 <li><b>Example: </b></li>
- ```ruby
+```ruby
  ubuntu@ubuntu:~$ ls 
  Desktop    Downloads   Pictures   Templates   snap 
  Documents  Music    Public    Videos
- ```
+```
 </ul>
 <li>cd</li>
 <ul><li><b>Description: </b>Changes the current directory</li>
@@ -88,10 +88,10 @@ ubuntu@ubuntu:~/Documents$
 <li>pwd</li>
 <ul><li><b>Description: </b>Shows the current working directory</li>
 <li><b>Syntax: </b>pwd</li>
-<li><b>Example:</b><br>
+<li><b>Example:</b><br></li>
 ```ruby
  ubuntu@ubuntu:~$ pwd 
-/home/user/Documents</li>
+/home/user/Documents
 ```
 </ul>
 </ol>
