@@ -66,9 +66,9 @@ Utilities are small programs or tools in an operating system that helps you perf
 <b>Examples: </b>copying files, checking disk shape, or setting passwords.
 
 <h2>Linux Commands Overview:</h2>
-<h4><b>(1)ls</b></h4>
+<h3><b>(1) ls</b></h3>
 <ul><li><b>Description: </b>Lists files and directories in the current folder.</li>
-<li><b>Syntax: </b>ls</li>
+<li><b>Syntax: </b>ls [options]</li>
 <li><b>Example: </b></li></ul>
 
 ```bash
@@ -76,16 +76,20 @@ ubuntu@ubuntu:~$ ls
 Desktop    Downloads   Pictures   Templates   snap 
 Documents  Music    Public    Videos
 ```
-<h4><b>(2)cd</b></h4>
+<i>It shows all the contents and files of the current folder.</i>
+
+<h3><b>(2) cd</b></h3>
 <ul><li><b>Description: </b>Changes the current directory</li>
-<li><b>Syntax: </b>cd</li>
+<li><b>Syntax: </b>cd [directory]</li>
 <li><b>Example: </b></li></ul>
 
 ```bash
 ubuntu@ubuntu:~$ cd Documents/
 ubuntu@ubuntu:~/Documents$
 ```
-<h4><b>(3)pwd</b></h4>
+<i>It changes the current directory.</i>
+
+<h3><b>(3) pwd</b></h3>
 <ul><li><b>Description: </b>Shows the current working directory</li>
 <li><b>Syntax: </b>pwd</li>
 <li><b>Example:</b><br></li></ul>
@@ -94,3 +98,56 @@ ubuntu@ubuntu:~/Documents$
 ubuntu@ubuntu:~$ pwd 
 /home/user/Documents
 ```
+<i>It shows that the user is currently in the "Documents" directory.</i>
+
+<h3><b>(4) mkdir</b></h3>
+<ul><li><b>Description: </b>make a new directory</li>
+<li><b>Syntax: </b>mkdir [folder-name]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ mkdir dailyreport
+ubuntu@ubuntu:~$
+```
+<i>It creates a new directory named "dailyreport".</i>
+
+<h3><b>(5) cat ></b></h3>
+<ul><li><b>Description: </b>Used to create a new file and write content into it from the terminal</li>
+<li><b>Syntax: </b>cat > [file_name]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ cat > dailyreport
+bash: dailyreport: Is a directory
+```
+
+```bash
+ubuntu@ubuntu:~$ cat > day2
+This is my day2.
+```
+<i>It lets you type and save content into a file(overwrites if it exists).</i>
+<b>[NOTE: Use Ctrl+D to exit from it.]</b>
+
+<h3><b>(6) touch</b></h3>
+<ul><li><b>Description: </b>creates file without content or create a new empty file or update the timestamp of an existing file</li>
+<li><b>Syntax: </b>touch [file_name]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ touch day1
+ubuntu@ubuntu:~$
+```
+<i>It creates a new empty file named "day1".</i>
+
+<h3><b>() rmdir</b></h3>
+<ul><li><b>Description: </b>remove empty directories</li>
+<li><b>Syntax: </b>rmdir [directory-name]</li>
+<li><b>Example: </b></li></ul>
+
+```bash
+ubuntu@ubuntu:~$ rmdir dailyreport
+ubuntu@ubuntu:~$
+```
+<i>It removes or deletes the directory named "dailyreport".</i>
+<b>[NOTE: This will only delete the directory named dailyreport only if it is empty, however if the folder is not empty, rmdir will give an error.]</b>
+
