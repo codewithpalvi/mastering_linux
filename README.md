@@ -25,3 +25,36 @@ Linux is a free and open-source operating source, like Windows or macOS, that he
 | Performace | Lightweight, runs well on older hardware | Heavier, needs more system resources |
 | Usage | Common in servers, coding, hacking | Common in personal and office use |
 | Support | Community support | Official Microsoft support |
+
+<h2>Booting and its types</h2>
+<b>BOOTING: </b>Booting is the process of starting a computer when you turn it on. It loads the operating system so you can use the computer.
+<b>TYPES OF BOOTING: </b>
+<ol><li><b>Cold Booting- </b>When you start the computer from a completely off state by pressing the power button.<br>
+E.g. You press the power button on your computer in the morning after it was shut down overnight.</li>
+<li><b>Warm Booting- </b>When you restart the computer without turning it off, like using the restart option.<br>
+E.g. You click the "Restart" option from the Start menu to reboot your computer while it's already on.</li></ol>
+
+<h2>Structure of Linux:</h2>
+![image](https://github.com/user-attachments/assets/54561f7c-b63e-4ee4-bfae-900a296668a8)
+
+<h2>Kernal</h2>
+The kernal is the core part of the linux operating system. It connects the hardware and software, manages system resources like CPU, memory, and devices, and allows programs to run and communicate with the hardware.
+<b>Key Functions:</b><br>
+<ul><li>Controls hardware (keyboard, disk, etc.) 
+<li>File management</li>
+<li>Process management</li>
+<li>I/O management</li>
+<li>Memory management</li>
+<li>Device management</li></ul>
+
+<h2>Shell</h2>
+Shell is a program that lets you interact with the computer by typing commands. It acts like an interface between user and the operating system.
+It takes your commands, sends them to the system, and shows the result.
+<h4>Types of Shell:</h4>
+<ul><li><b>Bash (Bourne Again Shell)- </b>Most common and user-friendly</li>
+<li><b>Sh (Bourne Shell)- </b>Older shell, simple and fast</li>
+<li><b>Csh (C Shell)- </b>Syntax similar to C programming</li>
+<li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul>
+<h3>Categories of Shell:</h3>
+<ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li>
+<li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li></ul>
