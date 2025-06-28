@@ -69,15 +69,15 @@ Utilities are small programs or tools in an operating system that helps you perf
 <ol><li>ls</li></ol>
 <ul><li><b>Description: </b>Lists files and directories in the current folder.</li>
 <li><b>Syntax: </b>ls</li>
-<ls><b>Example: </b></ls>
- | ubuntu@ubuntu:~$ ls |
- | Desktop    Downloads   Pictures   Templates   snap |
- | Documents  Music    Public    Videos |
+<li><b>Example: </b></li>
+ ` ` `ls 
+ ubuntu@ubuntu:~$ ls 
+ Desktop    Downloads   Pictures   Templates   snap 
+ Documents  Music    Public    Videos ` ` `
 </ul>
 <ol><li>pwd</li></ol>
 <ul><li><b>Description: </b>Shows the current working directory</li></ul>
 <li><b>Syntax: </b>pwd</li>
 <li><b>Example:</b><br>
-| ubuntu@ubuntu:~$ pwd |
-| ---- | 
-| /home/user/Documents</li> |
+```ubuntu@ubuntu:~$ pwd 
+/home/user/Documents</li>```
