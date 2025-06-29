@@ -35,8 +35,7 @@ E.g. You press the power button on your computer in the morning after it was shu
 E.g. You click the "Restart" option from the Start menu to reboot your computer while it's already on.</li></ol>
 
 <h2>Structure of Linux:</h2>
-<img src="![image](https://github.com/user-attachments/assets/54561f7c-b63e-4ee4-bfae-900a296668a8)
-" alt="">
+<img src="![Untitled-Diagram](https://github.com/user-attachments/assets/9ffe4d65-4ced-4b4b-b8dc-832d07eff4da)" alt="">
 
 <h2>Kernal</h2>
 The kernal is the core part of the linux operating system. It connects the hardware and software, manages system resources like CPU, memory, and devices, and allows programs to run and communicate with the hardware.<br></br>
@@ -57,10 +56,10 @@ It takes your commands, sends them to the system, and shows the result.<br></br>
 <li><b>Csh (C Shell)- </b>Syntax similar to C programming</li>
 <li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul><br>
 <h4>Categories of Shell:</h4>
-<ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li>
-<img src="![Screenshot 2025-06-28 153230](https://github.com/user-attachments/assets/701f77e3-c72b-4f87-b01f-0553b6930060)" alt =""
-<li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li>
-<img src="![Screenshot 2025-06-28 153327](https://github.com/user-attachments/assets/28e85a60-7745-469f-9fbc-a4f2b3ae9a67)" alt ="</ul>
+<ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li><br>
+<img src="![Screenshot 2025-06-28 153230](https://github.com/user-attachments/assets/701f77e3-c72b-4f87-b01f-0553b6930060)" alt ="">
+<li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li><br>
+<img src="![Screenshot 2025-06-28 153327](https://github.com/user-attachments/assets/28e85a60-7745-469f-9fbc-a4f2b3ae9a67)" alt =""></ul>
 
 <h2>Utilities:</h2>
 Utilities are small programs or tools in an operating system that helps you perform basic tasks. They make it easier to manage files, folders, system settings, and more.<br></br>
