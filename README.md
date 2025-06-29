@@ -202,3 +202,67 @@ cat (1)          - concatenate filed and print on the standard ou...
 <i>This gives a brief info about cat</i><br>
 <b><ul>NOTE:<li>If the output says 'nothing appropriate' that means your man database is not updated or The man-db package(which stores command descriptions) might not be installed.</li>
 <li>To update it just search sudo mandb in terminal,it'll automatically update your man database.</li></ul></b>
+
+<h3><b>(12) whereis</b></h3>
+<ul><li><b>Description: </b>To find the location of a command's binary file,source code, and manual page.</li>
+<li><b>Syntax: </b>whereis [command_name]</li>
+<li><b>Example: </b></li></ul>
+```bash
+ubuntu@ubuntu:~$ whereis cat
+cat: /usr/bin/cat/ usr/share/man/man1/cat.1.gz
+```
+<i>This means command cat is in /bin/ cat</i><br>
+<i>The manual file is located in /usr/share/man/...</i>
+
+<h3><b>(13) uname</b></h3>
+<ul><li><b>Description: </b>Used to display system information, like the kernek name,version,machine type, and more.</li>
+<li><b>Syntax: </b>uname [option]</li>
+<li><b>Example: </b></li></ul>
+```bash
+ubuntu@ubuntu:~$ uname
+Linux
+```
+<i>This means the system is Linux.</i>
+
+<h3><b>(14) date</b></h3>
+<ul><li><b>Description: </b>Used to display or set the current date and time of the system.</li>
+<li><b>Syntax: </b>date [options]</li>
+<li><b>Example: </b></li></ul>
+<b>Display current date and time:</b>
+```bash
+ubuntu@ubuntu:~$ date
+Sun Jan 29 07:07:45 UTC 2025
+```
+<b>Display date in custom format:</b>
+```bash
+ubuntu@ubuntu:~$ date +"%d-%m-%Y"
+29-06-2025
+```
+<b>Display only the time:</b>
+```bash
+ubuntu@ubuntu:~$ date +"%T"
+07:12:40
+```
+
+<h3><b>(15) history</b></h3>
+<ul><li><b>Description: </b>Shows a list of previously run commands in the terminal. It's useful to view or reuse past commands.</li>
+<li><b>Syntax: </b>history</li>
+<li><b>Example: </b></li></ul>
+```bash
+ubuntu@ubuntu:~$ history
+    1 ls
+    2 cd
+    3 pwd
+    4 mkdir
+    5 cat
+    6 touch
+    7 rmdir
+    8 cp
+    9 mv
+   10 whoami
+   11 whatis
+   12 whereis
+   13 uname
+   14 date
+   15 history
+```
