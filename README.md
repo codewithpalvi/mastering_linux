@@ -2,7 +2,7 @@
 A beginner-friendly guide to learn and explore Linux basics, commands, and usage.
 
 <h2>What is Linux? 👩‍🏫‍ </h2>
-Linux is a free and open-source operating source, like Windows or macOS, that helps your computer run and manage tasks. It's widely used in servers, mobile phones and even supercomputers.
+Linux is a free and open-source operating system, like Windows or macOS, that helps your computer run and manage tasks. It's widely used in servers, mobile phones and even supercomputers.
 
 <h2>Why Linux? &#x1F914 </h2>
 <ul><li>We use Linux because it's free, secure, and reliable.</li>
@@ -29,9 +29,9 @@ Linux is a free and open-source operating source, like Windows or macOS, that he
 <h2>Booting and its types</h2>
 <b>BOOTING: </b>Booting is the process of starting a computer when you turn it on. It loads the operating system so you can use the computer.<br></br>
 <b>TYPES OF BOOTING: </b>
-<ol><li><b>Cold Booting- </b>When you start the computer from a completely off state by pressing the power button.<br>
+<ol><li><b>Cold Booting- </b>When you start the computer from a completely off state by pressing the power button.It is also known as Hard booting.<br>
 E.g. You press the power button on your computer in the morning after it was shut down overnight.</li>
-<li><b>Warm Booting- </b>When you restart the computer without turning it off, like using the restart option.<br>
+<li><b>Warm Booting- </b>When you restart the computer without turning it off, like using the restart option.It is also known as soft booting<br>
 E.g. You click the "Restart" option from the Start menu to reboot your computer while it's already on.</li></ol>
 
 <h2>Structure of Linux:</h2>
@@ -54,11 +54,15 @@ It takes your commands, sends them to the system, and shows the result.<br></br>
 <ul><li><b>Bash (Bourne Again Shell)- </b>Most common and user-friendly</li>
 <li><b>Sh (Bourne Shell)- </b>Older shell, simple and fast</li>
 <li><b>Csh (C Shell)- </b>Syntax similar to C programming</li>
-<li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul><br></br>
+<li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul><br>
 <h4>Categories of Shell:</h4>
 <ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li><br>
+<img src="![Screenshot 2025-06-28 153230](https://github.com/user-attachments/assets/701f77e3-c72b-4f87-b01f-0553b6930060)" alt ="">
+  
 ![Screenshot 2025-06-28 153230](https://github.com/user-attachments/assets/701f77e3-c72b-4f87-b01f-0553b6930060)</br>
 <li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li><br>
+<img src="![Screenshot 2025-06-28 153327](https://github.com/user-attachments/assets/28e85a60-7745-469f-9fbc-a4f2b3ae9a67)" alt ="" width="104" height="142">
+
 ![Screenshot 2025-06-28 153327](https://github.com/user-attachments/assets/28e85a60-7745-469f-9fbc-a4f2b3ae9a67)</br></ul>
 
 <h2>Utilities:</h2>
@@ -196,6 +200,6 @@ ubuntu
 ubuntu@ubuntu:~$ whatis cat
 cat (1)          - concatenate filed and print on the standard ou...
 ```
-<i>This gives a brief info about cat</i>
+<i>This gives a brief info about cat</i><br>
 <b>[NOTE: If the output says 'nothing appropriate' that means your man database is not updated or The man-db package(which stores command descriptions) might not be installed.<br></br>
 To update it just search sudo mandb in terminal,it'll automatically update your man database.]</b>
