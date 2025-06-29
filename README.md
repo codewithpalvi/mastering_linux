@@ -60,7 +60,7 @@ It takes your commands, sends them to the system, and shows the result.<br></br>
 <img src="images/Screenshot 2025-06-28 153230.png" alt="">
 
 <li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li><br>
-<img src="" alt="">
+<img src="images/Screenshot 2025-06-28 153327.png" alt="">
 
 </ul>
 
