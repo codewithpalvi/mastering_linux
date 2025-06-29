@@ -35,7 +35,7 @@ E.g. You press the power button on your computer in the morning after it was shu
 E.g. You click the "Restart" option from the Start menu to reboot your computer while it's already on.</li></ol>
 
 <h2>Structure of Linux:</h2>
-
+<img src="images/Untitled-Diagram.jpg" alt = "">
 
 <h2>Kernal</h2>
 The kernal is the core part of the linux operating system. It connects the hardware and software, manages system resources like CPU, memory, and devices, and allows programs to run and communicate with the hardware.<br></br>
