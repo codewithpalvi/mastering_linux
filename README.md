@@ -35,8 +35,7 @@ E.g. You press the power button on your computer in the morning after it was shu
 E.g. You click the "Restart" option from the Start menu to reboot your computer while it's already on.</li></ol>
 
 <h2>Structure of Linux:</h2>
-<img src="![Untitled-Diagram](https://github.com/user-attachments/assets/bcb1dd5e-4ac0-4e9b-a0df-ed17478699e6)" width="200">
-![Untitled-Diagram](https://github.com/user-attachments/assets/bcb1dd5e-4ac0-4e9b-a0df-ed17478699e6)
+
 
 <h2>Kernal</h2>
 The kernal is the core part of the linux operating system. It connects the hardware and software, manages system resources like CPU, memory, and devices, and allows programs to run and communicate with the hardware.<br></br>
@@ -58,13 +57,10 @@ It takes your commands, sends them to the system, and shows the result.<br></br>
 <li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul><br>
 <h4>Categories of Shell:</h4>
 <ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li><br>
-<img src="C:\Users\codew\OneDrive\Pictures\Screenshots\Screenshot 2025-06-28 153230.png" alt="">
-"C:\Users\codew\OneDrive\Pictures\Screenshots\Screenshot 2025-06-28 153230.png"
+
 
 <li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li><br>
-<img src="C:\Users\codew\OneDrive\Pictures\Screenshots\Screenshot 2025-06-28 153327.png" width="200">
 
-"C:\Users\codew\OneDrive\Pictures\Screenshots\Screenshot 2025-06-28 153327.png"
 
 </ul>
 
