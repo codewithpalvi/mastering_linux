@@ -57,10 +57,10 @@ It takes your commands, sends them to the system, and shows the result.<br></br>
 <li><b>Ksh (Korn Shell)- </b>Combines features of Bourne and C shell</li></ul><br>
 <h4>Categories of Shell:</h4>
 <ul><li><b>Command Line Shell- </b>You type commands (like in a terminal)</li><br>
-
+<img src="images/Screenshot 2025-06-28 153230.png" alt="">
 
 <li><b>Graphical Shell- </b>You click on icons (like desktop environment)</li><br>
-
+<img src="" alt="">
 
 </ul>
 
