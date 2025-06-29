@@ -207,6 +207,7 @@ cat (1)          - concatenate filed and print on the standard ou...
 <ul><li><b>Description: </b>To find the location of a command's binary file,source code, and manual page.</li>
 <li><b>Syntax: </b>whereis [command_name]</li>
 <li><b>Example: </b></li></ul>
+
 ```bash
 ubuntu@ubuntu:~$ whereis cat
 cat: /usr/bin/cat/ usr/share/man/man1/cat.1.gz
@@ -218,6 +219,7 @@ cat: /usr/bin/cat/ usr/share/man/man1/cat.1.gz
 <ul><li><b>Description: </b>Used to display system information, like the kernek name,version,machine type, and more.</li>
 <li><b>Syntax: </b>uname [option]</li>
 <li><b>Example: </b></li></ul>
+
 ```bash
 ubuntu@ubuntu:~$ uname
 Linux
@@ -229,16 +231,19 @@ Linux
 <li><b>Syntax: </b>date [options]</li>
 <li><b>Example: </b></li></ul>
 <b>Display current date and time:</b>
+
 ```bash
 ubuntu@ubuntu:~$ date
 Sun Jan 29 07:07:45 UTC 2025
 ```
 <b>Display date in custom format:</b>
+
 ```bash
 ubuntu@ubuntu:~$ date +"%d-%m-%Y"
 29-06-2025
 ```
 <b>Display only the time:</b>
+
 ```bash
 ubuntu@ubuntu:~$ date +"%T"
 07:12:40
@@ -248,6 +253,7 @@ ubuntu@ubuntu:~$ date +"%T"
 <ul><li><b>Description: </b>Shows a list of previously run commands in the terminal. It's useful to view or reuse past commands.</li>
 <li><b>Syntax: </b>history</li>
 <li><b>Example: </b></li></ul>
+
 ```bash
 ubuntu@ubuntu:~$ history
     1 ls
